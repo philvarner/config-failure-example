@@ -11,6 +11,6 @@ lazy val root = (project in file("."))
       List(
         organization := "com.example",
         scalaVersion := "2.12.6",
-        scalacOptions ++= Seq("-target:jvm-1.8", "-unchecked", "-deprecation")
+        scalacOptions ++= Seq("-unchecked", "-deprecation")
       ))
   )
